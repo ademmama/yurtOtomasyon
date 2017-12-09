@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="Otamasyon.Template" %>
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AksharaPro</title>
+    <link rel="stylesheet" href="tema/css/bootstrap.min.css">
+    <link rel="stylesheet" href="tema/css/flexslider.css">
+    <link rel="stylesheet" href="tema/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="tema/css/main.css">
+    <link rel="stylesheet" href="tema/css/responsive.css">
+    <link rel="stylesheet" href="tema/css/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <section class="banner" role="banner">
+   
+        <header id="header">
+            <div class="header-content clearfix">
+                <a class="logo" href="#"><img src="tema/images/logo.png" alt=""></a>
+                <nav class="navigation" role="navigation">
+                    <ul class="primary-nav">
+                        <li><a href="Anasayfa.aspx">ANASAYFA</a></li>
+                        <li><a href="UyeOl.aspx">HAKKIMIZDA</a></li>
+                        <li><a href="#teams">REZERVASYON</a></li>
+                        <li><a href="#testimonials">KEŞFET</a></li>
+                        <li><a href="#download">KAYDOL</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="nav-toggle">Menu<span></span></a>
+            </div><!-- header content -->
+        </header><!-- header -->
+       
+        <div class="container">
+            <div class="col-md-10 col-md-offset-1">
+                
+            </div>
+            <p>
+                <br />
+            </p>
+        </div>
+    </section>
+    </form>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+        <p>
+            <br />
+        </p>
+
+
+    </asp:ContentPlaceHolder>
+
+
+    <!-- End Contact Form -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h5>Location</h5>
+                        <p>3481 Hi-Tech City<br>Hyderabad, INDIA 500072</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h5>Share with Love</h5>
+                        <ul class="footer-share">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/kamal_chaneman"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/kamalchaneman"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h5>About Akshara</h5>
+                        <p>aspx templates is a library to buy Bootstrap themes and templates for your business need. Want more Bootstrap themes & templates? Subscribe to our mailing list to receive an update when new items arrive!</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- footer top -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>Copyright © 2015 aksharapro. All Rights Reserved<br>Made with <i class="fa fa-heart pulse"></i> by <a href="http://aspxtemplates.com/">aspx templates</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>        window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="tema/js/bootstrap.min.js"></script>
+    <script src="tema/js/jquery.flexslider-min.js"></script>
+    <script src="tema/js/jquery.fancybox.pack.js"></script>
+    <script src="tema/js/jquery.waypoints.min.js"></script>
+    <script src="tema/js/retina.min.js"></script>
+    <script src="tema/js/modernizr.js"></script>
+    <script src="tema/js/main.js"></script>
+    </form>
+</body>
+</html>
+
